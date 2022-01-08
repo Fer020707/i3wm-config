@@ -7,4 +7,12 @@ To apply,copy `i3/config` in `~/.config/i3` and copy `polybar/config` in `~/.con
 
 For rounded corners and transparency copy `picom.conf` in `~/.config/picom`
 
-For theme vim copy `delek.vim` in `/usr/share/vim/vim82/colors`
+For theme vim copy `delek.vim` in `/usr/share/vim/vim82/colors` and edit `~/.vimrc`:
+```
+set number
+syntax on
+set tabstop=2
+set autoindent
+set relativenumber
+colorscheme delek
+```
